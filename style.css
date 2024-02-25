@@ -1,0 +1,70 @@
+body {
+background-image: url("https://img.freepik.com/free-photo/pastel-yellow-vignette-concrete-textured-background_53876-124561.jpg");
+background-color: #C4AC7C;
+background-size: 500px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Ariel", "Helvetica", sans-serif;
+}
+
+
+
+
+p{
+	font-family: 'Times New Roman', 'Times', serif;
+}
+
+hr { 
+  border-color: black;
+} 
+
+.table_c
+{
+border-style: solid;
+border-color: black;
+display: inline-block;
+}
+
+.sidebar{
+            width: 200px;
+            background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg");
+            position: fixed;
+            top: 0;
+            right: 0; /* Position on the right */
+            height: 100%;
+            overflow-y: auto; /* Enables scrolling */
+            border-left: 1px solid #D1BE9D;
+            padding: 20px;
+			font-size: 85%
+        }
+.sidebar a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+            font-family: "Comic Sans", "Comic Sans MS";
+        }
+
+        /* Style for the anchor links on hover */
+.sidebar a:hover {
+            background-color: #D1BE9D;
+            color: #64513B;
+}
+
+.content {
+            flex: 1;
+            padding: 20px;
+            padding-right: 220px; /* Add padding to the right */
+}
+button {
+	background-color: #D1BE9D;
+}
+
+img {
+  border: 5px solid #000;
+  width: 15%;
+}
+a{
+	color:black;
+}
